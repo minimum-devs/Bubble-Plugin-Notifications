@@ -1,0 +1,199 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 24,
+        "width": 24
+    },
+    "display": "Notifier",
+    "fields": {
+        "AAE": {
+            "caption": "Position",
+            "default_val": "top-left",
+            "doc": "The notification's position relative to the screen. Relevant to  both success and error notifications",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "top-left,top-center,top-right,bottom-left,bottom-center,bottom-right",
+            "rank": 0
+        },
+        "AAJ": {
+            "caption": "Duration",
+            "default_val": 4000,
+            "doc": "Duration of the notifaction in ms. Relevant to  both success and error notifications",
+            "editor": "DynamicValue",
+            "name": "duration",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAK": {
+            "caption": "Success BG",
+            "default_val": "rgba(218, 252, 232, 1)",
+            "doc": "Succes background color",
+            "editor": "Color",
+            "name": "succes_bg",
+            "rank": 3
+        },
+        "AAL": {
+            "caption": "Success Icon Secondary",
+            "default_val": "rgba(218, 252, 232, 1)",
+            "doc": "Succes icon Secondary theme color (Default icon only). ",
+            "editor": "Color",
+            "name": "success_secondary_icon_theme",
+            "rank": 8
+        },
+        "AAM": {
+            "caption": "Error Background",
+            "default_val": "rgba(254, 217, 217, 1)",
+            "doc": "Error background color",
+            "editor": "Color",
+            "name": "error_bg",
+            "rank": 9
+        },
+        "AAN": {
+            "caption": "Success Icon Primary color",
+            "default_val": "rgba(27, 92, 85, 1)",
+            "doc": "Succces icon' Primary theme color",
+            "editor": "Color",
+            "name": "success_primary_icon_theme",
+            "rank": 7
+        },
+        "AAP": {
+            "caption": "Error Font Color",
+            "default_val": "rgba(230, 112, 112, 1)",
+            "doc": "Error text color",
+            "editor": "Color",
+            "name": "error_txt",
+            "rank": 10
+        },
+        "AAQ": {
+            "caption": "Error Icon",
+            "doc": "You can use emoji's or plain text as icon. Leave empty for default.",
+            "editor": "DynamicValue",
+            "name": "error_icon",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "Error Icon Secondary",
+            "default_val": "rgba(254, 217, 217, 1)",
+            "doc": "Error icon Secondary theme color",
+            "editor": "Color",
+            "name": "error_secondary_icon_theme",
+            "optional": false,
+            "rank": 13
+        },
+        "AAS": {
+            "caption": "Border Size",
+            "default_val": 1,
+            "doc": "Border size in px. Relevant to  both success and error notifications",
+            "editor": "DynamicValue",
+            "name": "border_size",
+            "optional": false,
+            "rank": 2,
+            "value": "number"
+        },
+        "AAT": {
+            "caption": "Border Success",
+            "default_val": "rgba(164, 226, 190, 1)",
+            "doc": "Border color on success",
+            "editor": "Color",
+            "name": "border_succes",
+            "rank": 5
+        },
+        "AAU": {
+            "caption": "Success Font Color",
+            "default_val": "rgba(27, 92, 85, 1)",
+            "doc": "Succes text color",
+            "editor": "Color",
+            "name": "succes_txt",
+            "optional": false,
+            "rank": 4
+        },
+        "AAV": {
+            "caption": "Error Icon Primary",
+            "default_val": "rgba(230, 112, 112, 1)",
+            "doc": "Error icon primary theme color",
+            "editor": "Color",
+            "name": "error_primary_icon_theme",
+            "rank": 12
+        },
+        "AAZ": {
+            "caption": "Border Error",
+            "default_val": "rgba(255, 162, 162, 1)",
+            "doc": "Error border color",
+            "editor": "Color",
+            "name": "border_error",
+            "rank": 14
+        },
+        "AAa": {
+            "caption": "Success icon",
+            "default_val": "",
+            "doc": "You can use emoji's or plain text as icon. Leave empty for default.",
+            "editor": "DynamicValue",
+            "name": "success_icon",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "Blank BG",
+            "default_val": "rgba(255, 255, 255, 1)",
+            "doc": "Blank background color",
+            "editor": "Color",
+            "name": "blank_bg",
+            "optional": true,
+            "rank": 15
+        },
+        "AAc": {
+            "caption": "Blank Font Color",
+            "default_val": "rgba(16, 42, 67, 1)",
+            "doc": "Blank text color",
+            "editor": "Color",
+            "name": "blank_txt",
+            "optional": true,
+            "rank": 16
+        },
+        "AAd": {
+            "caption": "Blank Success",
+            "default_val": "rgba(218, 226, 233, 1)",
+            "doc": "Border color Blank ",
+            "editor": "Color",
+            "name": "border_blank",
+            "optional": true,
+            "rank": 17
+        },
+        "AAe": {
+            "caption": "Blank  Icon",
+            "doc": "You can use emoji's or plain text as icon. Leave empty for default.",
+            "editor": "DynamicValue",
+            "name": "blank_icon",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "Blank Icon Secondary",
+            "default_val": "rgba(113, 50, 0, 1)",
+            "doc": "Blank icon Secondary theme color (Default icon only). ",
+            "editor": "Color",
+            "name": "blank_secondary_icon_theme",
+            "optional": true,
+            "rank": 20
+        },
+        "AAh": {
+            "caption": "Blank Icon Primary ",
+            "default_val": "rgba(113, 50, 0, 1)",
+            "doc": "Blank icon Primary theme color",
+            "editor": "Color",
+            "name": "blank_primary_icon_theme",
+            "optional": true,
+            "rank": 19
+        }
+    },
+    "icon": "ion-android-notifications",
+    "property_applications": {
+        "Font": true,
+        "resizable": true
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "productivity",
+        "2": "mobile",
+        "3": "data (things)",
+        "4": "social network"
+    },
+    "demo_page": "https://minimum-studio.bubbleapps.io/notifications",
+    "description": "This plugin allows you to add beautiful customizable notifications to your Bubble app.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1638970909263x685078834845236000/Frame%20421%20%281%29.svg",
+    "license": "open_source",
+    "link": "https://minimum.studio/plugins",
+    "name": "Notifications",
+    "plugin_instructions": "Check out the full plugin documentation at https://minimumstudio.notion.site/Notifications-db3adc3b450f4802b78d9a3ffc2bc7c0"
+}

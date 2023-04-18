@@ -128,7 +128,6 @@
         },
         "AAa": {
             "caption": "Success icon",
-            "default_val": "",
             "doc": "You can use emoji's or plain text as icon. Leave empty for default.",
             "editor": "DynamicValue",
             "name": "success_icon",

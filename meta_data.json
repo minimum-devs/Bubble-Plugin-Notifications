@@ -6,11 +6,11 @@
         "3": "data (things)",
         "4": "social network"
     },
-    "demo_page": "https://minimum-studio.bubbleapps.io/notifications",
-    "description": "This plugin allows you to add beautiful customizable notifications to your Bubble app.",
+    "demo_page": "https://notifier-demo.bubbleapps.io/version-test",
+    "description": "This plugin allows you to add beautiful customizable notifications to your Bubble app.\n\nIt supports three types of notifications \n\n❌ Error notifications\n✅ Success notifications\n⬜️ Blank notifications\n\n💬 Customize the message\n🤩 Use emojis as custom icons\n🎨 Customize the default icons\n⏳ Set a duration\n🖌 Change background, border and font colours\n",
     "image": "//s3.amazonaws.com/appforest_uf/f1638970909263x685078834845236000/Frame%20421%20%281%29.svg",
     "license": "open_source",
-    "link": "https://minimum.studio/plugins",
+    "link": "https://forum.bubble.io/u/minimumstudio/summary",
     "name": "Notifications",
-    "plugin_instructions": "Check out the full plugin documentation at https://minimumstudio.notion.site/Notifications-db3adc3b450f4802b78d9a3ffc2bc7c0"
+    "plugin_instructions": "✅ Add the Notifier element to your page. It doesn't matter where, as long as it is on the page.\n\n✅ Configure your styling\n\n✅ You can display a notification from your Notifier element via workflow actions. Use the action \"notify a Notifier\" and select your Notifier."
 }

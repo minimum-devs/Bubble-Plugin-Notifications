@@ -16,22 +16,13 @@
             "options": "top-left,top-center,top-right,bottom-left,bottom-center,bottom-right",
             "rank": 0
         },
-        "AAJ": {
-            "caption": "Duration",
-            "default_val": 4000,
-            "doc": "Duration of the notifaction in ms. Relevant to  both success and error notifications",
-            "editor": "DynamicValue",
-            "name": "duration",
-            "rank": 1,
-            "value": "number"
-        },
         "AAK": {
-            "caption": "Success BG",
+            "caption": "Success Background",
             "default_val": "rgba(218, 252, 232, 1)",
             "doc": "Succes background color",
             "editor": "Color",
             "name": "succes_bg",
-            "rank": 3
+            "rank": 2
         },
         "AAL": {
             "caption": "Success Icon Secondary",
@@ -39,7 +30,7 @@
             "doc": "Succes icon Secondary theme color (Default icon only). ",
             "editor": "Color",
             "name": "success_secondary_icon_theme",
-            "rank": 8
+            "rank": 7
         },
         "AAM": {
             "caption": "Error Background",
@@ -47,7 +38,7 @@
             "doc": "Error background color",
             "editor": "Color",
             "name": "error_bg",
-            "rank": 9
+            "rank": 8
         },
         "AAN": {
             "caption": "Success Icon Primary color",
@@ -55,7 +46,7 @@
             "doc": "Succces icon' Primary theme color",
             "editor": "Color",
             "name": "success_primary_icon_theme",
-            "rank": 7
+            "rank": 6
         },
         "AAP": {
             "caption": "Error Font Color",
@@ -63,7 +54,7 @@
             "doc": "Error text color",
             "editor": "Color",
             "name": "error_txt",
-            "rank": 10
+            "rank": 9
         },
         "AAQ": {
             "caption": "Error Icon",
@@ -71,7 +62,7 @@
             "editor": "DynamicValue",
             "name": "error_icon",
             "optional": true,
-            "rank": 11,
+            "rank": 10,
             "value": "text"
         },
         "AAR": {
@@ -81,7 +72,7 @@
             "editor": "Color",
             "name": "error_secondary_icon_theme",
             "optional": false,
-            "rank": 13
+            "rank": 12
         },
         "AAS": {
             "caption": "Border Size",
@@ -90,7 +81,7 @@
             "editor": "DynamicValue",
             "name": "border_size",
             "optional": false,
-            "rank": 2,
+            "rank": 1,
             "value": "number"
         },
         "AAT": {
@@ -99,7 +90,7 @@
             "doc": "Border color on success",
             "editor": "Color",
             "name": "border_succes",
-            "rank": 5
+            "rank": 4
         },
         "AAU": {
             "caption": "Success Font Color",
@@ -108,7 +99,7 @@
             "editor": "Color",
             "name": "succes_txt",
             "optional": false,
-            "rank": 4
+            "rank": 3
         },
         "AAV": {
             "caption": "Error Icon Primary",
@@ -116,7 +107,7 @@
             "doc": "Error icon primary theme color",
             "editor": "Color",
             "name": "error_primary_icon_theme",
-            "rank": 12
+            "rank": 11
         },
         "AAZ": {
             "caption": "Border Error",
@@ -124,7 +115,7 @@
             "doc": "Error border color",
             "editor": "Color",
             "name": "border_error",
-            "rank": 14
+            "rank": 13
         },
         "AAa": {
             "caption": "Success icon",
@@ -132,17 +123,17 @@
             "editor": "DynamicValue",
             "name": "success_icon",
             "optional": true,
-            "rank": 6,
+            "rank": 5,
             "value": "text"
         },
         "AAb": {
-            "caption": "Blank BG",
+            "caption": "Blank Background",
             "default_val": "rgba(255, 255, 255, 1)",
             "doc": "Blank background color",
             "editor": "Color",
             "name": "blank_bg",
             "optional": true,
-            "rank": 15
+            "rank": 14
         },
         "AAc": {
             "caption": "Blank Font Color",
@@ -151,24 +142,24 @@
             "editor": "Color",
             "name": "blank_txt",
             "optional": true,
-            "rank": 16
+            "rank": 15
         },
         "AAd": {
-            "caption": "Blank Success",
+            "caption": "Border Blank",
             "default_val": "rgba(218, 226, 233, 1)",
             "doc": "Border color Blank ",
             "editor": "Color",
             "name": "border_blank",
             "optional": true,
-            "rank": 17
+            "rank": 16
         },
         "AAe": {
-            "caption": "Blank  Icon",
+            "caption": "Blank Icon",
             "doc": "You can use emoji's or plain text as icon. Leave empty for default.",
             "editor": "DynamicValue",
             "name": "blank_icon",
             "optional": true,
-            "rank": 18,
+            "rank": 17,
             "value": "text"
         },
         "AAf": {
@@ -178,7 +169,7 @@
             "editor": "Color",
             "name": "blank_secondary_icon_theme",
             "optional": true,
-            "rank": 20
+            "rank": 19
         },
         "AAh": {
             "caption": "Blank Icon Primary ",
@@ -187,7 +178,7 @@
             "editor": "Color",
             "name": "blank_primary_icon_theme",
             "optional": true,
-            "rank": 19
+            "rank": 18
         }
     },
     "icon": "ion-android-notifications",

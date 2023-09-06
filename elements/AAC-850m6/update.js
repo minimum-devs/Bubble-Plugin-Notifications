@@ -3,7 +3,6 @@ function(instance, properties, context) {
   let element = React.createElement(Toaster, {
     position: properties.position,
     toastOptions: {
-      duration: properties.duration,
       blank: {
         ...(properties.blank_icon && { icon: properties.blank_icon }),
         iconTheme: {

@@ -1,6 +1,6 @@
 {
     "caption": "notify",
-    "doc": "Display a notification.",
+    "doc": "Display a toast notification.",
     "fields": {
         "AAG": {
             "caption": "Message",
@@ -17,8 +17,16 @@
             "doc": "Which style of notification to display.",
             "editor": "Dropdown",
             "name": "type",
-            "options": "blank,success,error",
+            "options": "blank,success,error,loading",
             "rank": 1
+        },
+        "AAj": {
+            "caption": "Duration",
+            "default_val": 4000,
+            "doc": "How long to show the notification for.",
+            "editor": "StaticNumber",
+            "name": "duration",
+            "rank": 2
         }
     }
 }
